@@ -6,10 +6,12 @@ __pycache__/
 .env
 .env.local
 .env.*.local
-data/
 .pytest_cache/
 .DS_Store
 .idea/
 .vscode/
 
 
+# Ignore data folder contents except seed.js
+frontend/src/data/*
+!frontend/src/data/seed.js
